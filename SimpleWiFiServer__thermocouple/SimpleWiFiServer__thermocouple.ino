@@ -6,8 +6,8 @@
 
 MAX6675 thermocouple(4,16,5);
 
-const char *ssid = "Galaxy M13CE4D";
-const char *password = "aaaaaaaa";
+const char *ssid = "SSID";
+const char *password = "Password";
 
 NetworkServer server(80);
 
