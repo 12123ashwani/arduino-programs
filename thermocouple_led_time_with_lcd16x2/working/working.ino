@@ -9,8 +9,8 @@
 
 // i used ikohm potentiometer and 270 ohm resistor
 
-const char *ssid = "ASHWANI_PC 5992";   // this is my computer's hotspot name and password
-const char *password = "wU70356}";
+const char *ssid = "ssid";   // this is my computer's hotspot name and password
+const char *password = "password";
 MAX6675 thermocouple(2,0,4);    // sck cs so order of the parameters
 
 WiFiUDP ntpUDP;
